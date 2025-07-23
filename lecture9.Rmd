@@ -1,0 +1,61 @@
+---
+title: "Final Example"
+author: "S.Holmes"
+date: "2025-07-21"
+output: 
+  pdf_document: default
+  word_document: default
+  html_document: default
+---
+
+```{r, setup, include = FALSE, echo = FALSE}
+library(readr)
+library(rmarkdown)
+knitr::opts_chunk$set(echo = TRUE)
+
+# The above options names the code chunk. include = FALSE means that this code chunk will not be rendered in the final document. The knitr package will create the report once rendered.
+
+# By default, the working directory is the location where the .Rmd file is saved. setwd() does not work in RMarkdown!
+```
+
+```{r, include = FALSE}
+getwd()
+```
+
+# R Coding Final
+
+## Suneye Holmes
+
+### GA Tech, Summer 2025
+
+#### Research Topic or Abstract
+
+These data were obtained from *this source*. The effects of pollutants (e.g., CS~2~) were analyzed per mile^2^. These data are a part of an ongoing project with the **Think Tank**.\
+Thanks for reading.
+
+<!--
+Below is a numbered list that you can create.
+-->
+
+\newpage
+
+### A Rough Table of Contents
+1. First, a few papers on my topic, i.e., a Lit Review
+2. Data Description
+
+<!--
+note that subtopics have to be indented. See the unordered list below
+-->
+
+- Cleaning Data
+  + What worked from my midterm plans
+  + What did not work from my midterm plans
+- Analysis Goals
+  + Tables
+  + Viz
+  
+Here is a link to [more info on RMarkdown Studio](https://rstudio.github.io/cheatsheets/html/rmarkdown.html)
+
+\newpage
+
+
