@@ -31,7 +31,8 @@ getwd()
 #### Research Topic or Abstract
 
 These data were obtained from *this source*. The effects of pollutants (e.g., CS~2~) were analyzed per mile^2^. These data are a part of an ongoing project with the **Think Tank**.\
-Thanks for reading.
+Thanks for reading.  
+This project is also available on my GitHub profile, rogue-economista under the test-repo repository.
 
 <!--
 Below is a numbered list that you can create.
